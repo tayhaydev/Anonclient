@@ -1,8 +1,8 @@
-# tayhays (not really) anonfile client
+# (not really) tayhays  anonfile client
 
 ## credits:
 
-- **https://github.com/AikoSimidzu/AnonFile-Uploader for writing the base**
+- **https://github.com/AikoSimidzu/AnonFile-Uploader for writing the base (doing most of the work here)**
 
 ## features:
 

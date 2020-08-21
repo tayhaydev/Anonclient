@@ -5,6 +5,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.ComponentModel;
 using System.Drawing;
+using System.Linq;
 
 namespace AnonFile_Uploader
 {    
@@ -32,7 +33,9 @@ namespace AnonFile_Uploader
                 var response = webClient.UploadFile(url, filePath);
                 string stg = System.Text.Encoding.UTF8.GetString(response);
                 richTextBox1.Text += Helper.Pars(stg, "full\":\"", "\",") + "\n";
-                Clipboard.SetText(richTextBox1.Text);
+                string clip = richTextBox1.Text;
+                string clip1 = clip.Remove(clip.Length - 1, 1);
+                Clipboard.SetText(clip1);
             }
         }
         private void label2_Click(object sender, EventArgs e)

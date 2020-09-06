@@ -15,6 +15,6 @@
 
 * go to \anonfile client\helper.cs and enter your token
 
-* example token: cea281o6b24d6fc5
+* example token: oeaf8116b24d6fc5
 
 * build in visual studio anycpu

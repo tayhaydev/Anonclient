@@ -1,5 +1,4 @@
-#𝘼𝙣𝙤𝙣𝙘𝙡𝙞𝙚𝙣𝙩
-
+# 𝗔𝗻𝗼𝗻𝗰𝗹𝗶𝗲𝗻𝘁
 𝙘𝙧𝙚𝙙𝙞𝙩𝙨
 * https://github.com/AikoSimidzu/AnonFile-Uploader (doing most of the work here)
 

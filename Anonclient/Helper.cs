@@ -13,7 +13,7 @@ namespace AnonFile_Uploader
     {
         public static string ApiKey()
         {
-            string url = "https://api.anonfile.com/upload?token=cea281f6b94d3f75";
+            string url = "https://api.anonfile.com/upload?token=yourtoken";
             return url;
         }
 

@@ -17,7 +17,7 @@ namespace AnonFile_Uploader
             InitializeComponent();
         }
 
-        private void ellipseButton1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Ssl3 | SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
             string url = Helper.ApiKey();
@@ -52,16 +52,16 @@ namespace AnonFile_Uploader
         {
             label2.ForeColor = Color.FromArgb(255, 255, 255);
         }
-        private void ellipseButton1_MouseEnter(object sender, EventArgs e)
+        private void button1_MouseEnter(object sender, EventArgs e)
         {
-            ellipseButton1.ForeColor = Color.FromArgb(192, 0, 192);
-            ellipseButton1.BackColor = Color.FromArgb(29, 29, 29);
+            button1.ForeColor = Color.FromArgb(192, 0, 192);
+            button1.BackColor = Color.FromArgb(29, 29, 29);
         }
 
-        private void ellipseButton1_MouseLeave(object sender, EventArgs e)
+        private void button1_MouseLeave(object sender, EventArgs e)
         {
-            ellipseButton1.ForeColor = Color.FromArgb(255, 255, 255);
-            ellipseButton1.BackColor = Color.FromArgb(29, 29, 29);
+            button1.ForeColor = Color.FromArgb(255, 255, 255);
+            button1.BackColor = Color.FromArgb(29, 29, 29);
         }
 
         public const int WM_NCLBUTTONDOWN = 0xA1;

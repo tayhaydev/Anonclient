@@ -18,3 +18,6 @@
 * example token: oeaf8116b24d6fc5
 
 * build in visual studio anycpu
+
+𝙋𝙧𝙚𝙫𝙞𝙚𝙬
+![](https://cdn.discordapp.com/attachments/423193702115180544/757159124784906250/unknown.png)

@@ -1,19 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace AnonFile_Uploader
+﻿namespace AnonFile_Uploader
 {
     class Helper
     {
         public static string ApiKey()
         {
-            string url = "https://api.anonfile.com/upload?token=yourtoken";
+            string url = "https://api.anonfile.com/upload?token=cea281f6b94d3f75";
             return url;
         }
 

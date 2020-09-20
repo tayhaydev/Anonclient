@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.Net;
-using System.IO;
 using System.Runtime.InteropServices;
-using System.ComponentModel;
 using System.Drawing;
-using System.Linq;
 
 namespace AnonFile_Uploader
 {    

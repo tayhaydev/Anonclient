@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E2C675C8-39AC-4081-A126-D593DE3A3100}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Anonclient</RootNamespace>
-    <AssemblyName>Anonclient</AssemblyName>
+    <RootNamespace>anonclient</RootNamespace>
+    <AssemblyName>anonclient</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

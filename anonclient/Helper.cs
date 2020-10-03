@@ -4,7 +4,7 @@
     {
         public static string ApiKey()
         {
-            string url = "https://api.anonfile.com/upload?token=youretoken";
+            string url = "https://api.anonfile.com/upload?token=yourtoken";
             return url;
         }
 

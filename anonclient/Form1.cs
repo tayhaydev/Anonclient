@@ -16,6 +16,7 @@ namespace AnonFile_Uploader
 
         private void button1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             try
             {
                 ServicePointManager.SecurityProtocol = SecurityProtocolType.Ssl3 | SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
@@ -39,6 +40,26 @@ namespace AnonFile_Uploader
             }
             catch
             { }
+=======
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Ssl3 | SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
+            string url = Helper.ApiKey();
+            string filePath = "";
+            OpenFileDialog ofd = new OpenFileDialog();
+            if (ofd.ShowDialog() == DialogResult.OK)
+            {
+                filePath = ofd.FileName;
+            }
+
+            using (var webClient = new WebClient())
+            {
+                var response = webClient.UploadFile(url, filePath);
+                string stg = System.Text.Encoding.UTF8.GetString(response);
+                richTextBox1.Text += Helper.Pars(stg, "full\":\"", "\",") + "\n";
+                string clip = richTextBox1.Text;
+                string clip1 = clip.Remove(clip.Length - 1, 1);
+                Clipboard.SetText(clip1);
+            }
+>>>>>>> ec8cdfc1f33a4693f2cbf5b03b7e163035cc5c36
         }
         private void label2_Click(object sender, EventArgs e)
         {
@@ -54,7 +75,10 @@ namespace AnonFile_Uploader
         {
             label2.ForeColor = Color.FromArgb(255, 255, 255);
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> ec8cdfc1f33a4693f2cbf5b03b7e163035cc5c36
         private void button1_MouseEnter(object sender, EventArgs e)
         {
             button1.ForeColor = Color.FromArgb(192, 0, 192);
@@ -87,8 +111,13 @@ namespace AnonFile_Uploader
         {
             this.ActiveControl = null;
         }
+<<<<<<< HEAD
 
         protected override void OnMouseDown(MouseEventArgs e)
+=======
+        protected override void OnMouseDown(MouseEventArgs e)
+
+>>>>>>> ec8cdfc1f33a4693f2cbf5b03b7e163035cc5c36
         {
             base.OnMouseDown(e);
             if (e.Button == MouseButtons.Left)

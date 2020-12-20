@@ -3,4 +3,4 @@
 🚀 upload stuff to anonfiles from your desktop
 
 ## preview<br>
-![](https://cdn.discordapp.com/attachments/750750380794839164/766269844324483082/unknown.png)
+![](https://racism.fun/uploads/096ef20c-c4ee-4274-9aee-a86aa2b0b87a/hwoIMNDd.png)
